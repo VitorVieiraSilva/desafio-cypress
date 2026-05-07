@@ -1,0 +1,25 @@
+{
+  "name": "desafio-cypress",
+  "version": "1.0.0",
+  "description": "Desafio de automação Frontend e Backend utilizando cypress e javascript",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorVieiraSilva/desafio-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VitorVieiraSilva/desafio-cypress/issues"
+  },
+  "homepage": "https://github.com/VitorVieiraSilva/desafio-cypress#readme",
+  "devDependencies": {
+    "cypress": "^15.14.2"
+  }
+}

@@ -1,4 +1,5 @@
 import login from "../../pages/login"
+import helperApi from "../../pages/helperApi"
 
 describe('Login', () => {
 
@@ -8,6 +9,7 @@ describe('Login', () => {
 
   context('Testes positivos', () => {
     it('login with valid user', () => {
+      helperApi.createUserByApi();
       login.validLogin();
 
       cy.contains('Bem Vindo Vitor').should('be.visible')

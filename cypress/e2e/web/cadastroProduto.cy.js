@@ -6,6 +6,7 @@ describe('Create product', () => {
 
   before(() => {
     helperApi.createUserByApi();
+    helperApi.checkAndDeleteProductByApi();
   })
   beforeEach(() => {
     cy.visit('https://front.serverest.dev/')

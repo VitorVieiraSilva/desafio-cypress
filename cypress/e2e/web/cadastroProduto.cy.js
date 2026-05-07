@@ -1,8 +1,12 @@
 import cadastro from "../../pages/cadastro";
 import login from "../../pages/login";
+import helperApi from "../../pages/helperApi";
 
 describe('Create product', () => {
 
+  before(() => {
+    helperApi.createUserByApi();
+  })
   beforeEach(() => {
     cy.visit('https://front.serverest.dev/')
   })
